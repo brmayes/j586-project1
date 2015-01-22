@@ -1,0 +1,112 @@
+.menu-items-01, .menu-items-07, .menu-items-02, .menu-items-03, .menu-items-04, .menu-items-05, .menu-items-06, .menu-items-08, .menu-items-09, .menu-items-10, .menu-items-11, .menu-items-12, .topmenu-icon-settings, .topmenu-icon-help, .topmenu-background, .spacer-topmenu, .mainnav-textures, .mainnav-basicbackground{
+	background: url(sprites.png) no-repeat;
+}
+
+.menu-items-01{
+	background-position: -40.00000762939453px -26px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-07{
+	background-position: -118.00000762939453px -28px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-02{
+	background-position: -249.00000762939453px -26px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-03{
+	background-position: -460.00003814697266px -27px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-04{
+	background-position: -49.00000762939453px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-05{
+	background-position: -263.00000762939453px -126px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-06{
+	background-position: -461.00000762939453px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-08{
+	background-position: -338.00000762939453px -27px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-09{
+	background-position: -539.0000076293945px -26px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-10{
+	background-position: -125.00000762939453px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-11{
+	background-position: -340.00000762939453px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-12{
+	background-position: -538.0000076293945px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.topmenu-icon-settings{
+	background-position: -79.00000762939453px -229px ;
+	width: 20px;
+	height: 20px;
+}
+
+.topmenu-icon-help{
+	background-position: -29.00000762939453px -228px ;
+	width: 20px;
+	height: 20px;
+}
+
+.topmenu-background{
+	background-position: 0 -681.777777671814px ;
+	width: 1200px;
+	height: 45px;
+}
+
+.spacer-topmenu{
+	background-position: -146.98960876464844px -266.9930725097656px ;
+	width: 1px;
+	height: 30px;
+}
+
+.mainnav-textures{
+	background-position: 0 -538.9895935058594px ;
+	width: 1200px;
+	height: 110px;
+}
+
+.mainnav-basicbackground{
+	background-position: 0 -388.9930725097656px ;
+	width: 1200px;
+	height: 110px;
+}
+

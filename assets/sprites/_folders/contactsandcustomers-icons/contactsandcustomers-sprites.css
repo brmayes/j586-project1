@@ -1,0 +1,40 @@
+.contactsandcustomers-bannerleft, .contactsandcustomers-bannerright, .contactsandcustomers-greengraph, .contactsandcustomers-greenperson, .contactsandcustomers-orangegraph, .contactsandcustomers-orangeperson{
+	background: url(sprites.png) no-repeat;
+}
+
+.contactsandcustomers-bannerleft{
+	background-position: -34.979164123535156px -7.9791717529296875px ;
+	width: 15px;
+	height: 40px;
+}
+
+.contactsandcustomers-bannerright{
+	background-position: -100.99652099609375px -8.989593505859375px ;
+	width: 15px;
+	height: 40px;
+}
+
+.contactsandcustomers-greengraph{
+	background-position: -7.000007629394531px -116px ;
+	width: 192px;
+	height: 82px;
+}
+
+.contactsandcustomers-greenperson{
+	background-position: -222.00000762939453px -117px ;
+	width: 78px;
+	height: 82px;
+}
+
+.contactsandcustomers-orangegraph{
+	background-position: -7.000007629394531px -266px ;
+	width: 192px;
+	height: 82px;
+}
+
+.contactsandcustomers-orangeperson{
+	background-position: -222.00000762939453px -267px ;
+	width: 78px;
+	height: 82px;
+}
+

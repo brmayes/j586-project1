@@ -1,0 +1,22 @@
+.recommendations-bulbicon, .recommendations-articleicon, .recommendation-checkicon{
+	background: url(sprites.png) no-repeat;
+}
+
+.recommendations-bulbicon{
+	background-position: -26px -13px ;
+	width: 23px;
+	height: 37px;
+}
+
+.recommendations-articleicon{
+	background-position: -76px -11px ;
+	width: 23px;
+	height: 37px;
+}
+
+.recommendation-checkicon{
+	background-position: -125px -12px ;
+	width: 23px;
+	height: 37px;
+}
+

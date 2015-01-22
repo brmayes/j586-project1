@@ -1,0 +1,34 @@
+.analytics-activityandchannels-notype, .analytics-facebook, .analytics-foursquare, .analytics-google, .analytics-twitter{
+	background: url(sprites.png) no-repeat;
+}
+
+.analytics-activityandchannels-notype{
+	background-position: 0 0;
+	width: 552px;
+	height: 242px;
+}
+
+.analytics-facebook{
+	background-position: -328.9930419921875px -332.9861145019531px ;
+	width: 70px;
+	height: 16px;
+}
+
+.analytics-foursquare{
+	background-position: -219.9930419921875px -331.9861145019531px ;
+	width: 79px;
+	height: 16px;
+}
+
+.analytics-google{
+	background-position: -136.9930419921875px -332.9861145019531px ;
+	width: 62px;
+	height: 16px;
+}
+
+.analytics-twitter{
+	background-position: -45.9930419921875px -332.9861145019531px ;
+	width: 54px;
+	height: 16px;
+}
+
