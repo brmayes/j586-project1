@@ -1,8 +1,24 @@
-/* specific styles for bootstrap demo */
+/* General */
+body {
+    font-family: "Myriad pro";
+}
 
+/* Navigation*/
 .topnav {
     background-image: url(../assets/images/menu-assets/topmenu-background.png);
     min-height: 45px;
+    padding-right: 10px;
+}
+
+.topnav-div {
+    width: 92%;
+    border: solid border 1px;
+}
+
+.topnav-text {
+    color: white;
+    float: right;
+    
 }
 
 .mainnav {
@@ -12,14 +28,22 @@
     min-height: 110px;
 }
 
+
+/* Dashboard*/
 .dashboard {
     background-color: #33CC66;
     min-height: 75px;
-    margin: 15px 5px;
+    margin: 15px 0px;
     border-radius: 5px;
-
 }
 
+.row-dash {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+
+/* Main Content */
 .main {
     border: solid 1px;
 }
@@ -48,6 +72,11 @@
     min-height: 180px;
 }
 
-.row-dash {
-    /*margin: 0px 5px; */
+
+/* Footer */
+.footer {
+    background-image: url(../assets/images/footer/footer-plainbackcut.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    min-height: 50px;
 }
