@@ -1,0 +1,16 @@
+.announcements-bottomshadow, .background-gradient{
+	background: url(backgrounds-sprites.png) no-repeat;
+}
+
+.announcements-bottomshadow{
+	background-position: -23px -24px ;
+	width: 940px;
+	height: 8px;
+}
+
+.background-gradient{
+	background-position: 0 -266px ;
+	width: 970px;
+	height: 250px;
+}
+

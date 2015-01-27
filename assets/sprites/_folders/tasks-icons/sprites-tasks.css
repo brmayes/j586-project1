@@ -1,0 +1,40 @@
+.tasks-settingsicon, .tasks-personbox, .tasks-greencircle, .tasks-bluepersonicon, .tasks-activepersonicon, .tasks-activecircle{
+	background: url(sprites.png) no-repeat;
+}
+
+.tasks-settingsicon{
+	background-position: -29.00000762939453px -28px ;
+	width: 20px;
+	height: 20px;
+}
+
+.tasks-personbox{
+	background-position: -89.00000762939453px -18px ;
+	width: 60px;
+	height: 30px;
+}
+
+.tasks-greencircle{
+	background-position: -24.00000762939453px -75px ;
+	width: 24px;
+	height: 24px;
+}
+
+.tasks-bluepersonicon{
+	background-position: -79.00000762939453px -78px ;
+	width: 20px;
+	height: 20px;
+}
+
+.tasks-activepersonicon{
+	background-position: -80.00000762939453px -129px ;
+	width: 20px;
+	height: 20px;
+}
+
+.tasks-activecircle{
+	background-position: -24.00000762939453px -125px ;
+	width: 24px;
+	height: 24px;
+}
+

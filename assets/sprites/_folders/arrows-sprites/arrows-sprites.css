@@ -1,0 +1,34 @@
+.didyouknow-arrowback, .didyouknow-arrownext, .announcements-button-left, .announcements-button-right, .page-hover-triangle{
+	background: url(sprites.png) no-repeat;
+}
+
+.didyouknow-arrowback{
+	background-position: -80px -49px ;
+	width: 22px;
+	height: 50px;
+}
+
+.didyouknow-arrownext{
+	background-position: -177px -48px ;
+	width: 22px;
+	height: 50px;
+}
+
+.announcements-button-left{
+	background-position: -79px -177px ;
+	width: 22px;
+	height: 22px;
+}
+
+.announcements-button-right{
+	background-position: -175px -175px ;
+	width: 22px;
+	height: 22px;
+}
+
+.page-hover-triangle{
+	background-position: -309px -86px ;
+	width: 40px;
+	height: 10px;
+}
+

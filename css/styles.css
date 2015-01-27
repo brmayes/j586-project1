@@ -1,17 +1,82 @@
-/* specific styles for bootstrap demo */
+/* General */
+body {
+    font-family: "Myriad pro";
+}
 
+/* Navigation*/
 .topnav {
-    border: solid 1px;
+    background-image: url(../assets/images/menu-assets/topmenu-background.png);
+    min-height: 45px;
+    padding-right: 10px;
+}
+
+.topnav-div {
+    width: 92%;
+    border: solid border 1px;
+}
+
+.topnav-text {
+    color: white;
+    float: right;
+    
 }
 
 .mainnav {
-    border: solid 1px;
+    background-image: url(../assets/images/menu-assets/mainmenu-background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    min-height: 110px;
 }
 
+
+/* Dashboard*/
 .dashboard {
-    border: solid 1px;
+    background-color: #33CC66;
+    min-height: 75px;
+    margin: 15px 0px;
+    border-radius: 5px;
 }
 
+.row-dash {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+
+/* Main Content */
 .main {
     border: solid 1px;
+}
+
+.announcments {
+    min-height: 50px;
+}
+
+.tasks-main {
+    min-height: 120px;
+}
+
+.tasks {
+    min-height: 60px;
+}
+
+.analytics-main {
+    min-height: 405px;
+}
+
+.analytics-cc {
+    min-height: 270px;
+}
+
+.analytics-know {
+    min-height: 180px;
+}
+
+
+/* Footer */
+.footer {
+    background-image: url(../assets/images/footer/footer-plainbackcut.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    min-height: 50px;
 }

@@ -1,0 +1,22 @@
+.ad-seewhatothers, .ad-version2, .ad-watchwhatyousay{
+	background: url(sprites.png) no-repeat;
+}
+
+.ad-seewhatothers{
+	background-position: -14px -23.97222900390625px ;
+	width: 284px;
+	height: 174px;
+}
+
+.ad-version2{
+	background-position: -363.9930725097656px -34.99652099609375px ;
+	width: 284px;
+	height: 164px;
+}
+
+.ad-watchwhatyousay{
+	background-position: -712.7639465332031px -34.98614501953125px ;
+	width: 284px;
+	height: 164px;
+}
+
