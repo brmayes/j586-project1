@@ -78,12 +78,20 @@
 	background-position: -79.00000762939453px -229px ;
 	width: 20px;
 	height: 20px;
+	vertical-align: middle;
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
 }
 
 .topmenu-icon-help{
 	background-position: -29.00000762939453px -228px ;
 	width: 20px;
 	height: 20px;
+	vertical-align: middle;
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
 }
 
 .topmenu-background{
