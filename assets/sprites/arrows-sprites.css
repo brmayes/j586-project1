@@ -18,12 +18,15 @@
 	background-position: -79px -177px ;
 	width: 22px;
 	height: 22px;
+	float: left;
+	
 }
 
 .announcements-button-right{
 	background-position: -175px -175px ;
 	width: 22px;
 	height: 22px;
+	float: right;
 }
 
 .page-hover-triangle{
