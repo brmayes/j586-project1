@@ -62,11 +62,27 @@ body {
     min-height: 110px;
 }
 
+.mainnav-small {
+    background-image: url(../assets/images/menu-assets/mainnav-basicbackground.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    max-height: 50px;
+}
+
 .mainnav-middle {
     background-image: url(../assets/images/menu-assets/mainnav-texture.png);
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     min-height: 110px;
+}
+
+.mainnav-fill {
+    background-image: url(../assets/images/menu-assets/mainnav-smallfill.png);
+    background-repeat: repeat-x; 
+    height: 75px;
+    position: absolute;
+    top: 45px;
+    width: 100%;
 }
 
 .mainnav-left {
