@@ -12,7 +12,6 @@ body {
 
 .topnav-div {
     width: 92%;
-    border: solid border 1px;
 }
 
 .topnav-text {
@@ -29,30 +28,10 @@ body {
     padding-right: 10px;
 }
 
-/*
-.block {
-  height: 45px;
-  text-align: center;
-}
-
-.block:before {
-  content: '';
-  display: inline-block;
-  height: 100%; 
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing 
-
-}
-
-.centered {
-  display: inline-block;
-  vertical-align: middle;
-} */
-  
-.centered {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+ul.topmenu-lists {
+    list-style-type: none;
+    padding-top: 5px;
+    margin-top: 0px;
 }
 
 .mainnav {
@@ -90,7 +69,7 @@ li.mainnav-list {
     background-repeat: repeat-x; 
     height: 75px;
     position: absolute;
-    top: 45px;
+    top: 50px;
     width: 100%;
 }
 
