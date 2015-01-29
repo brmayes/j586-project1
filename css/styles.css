@@ -63,10 +63,9 @@ body {
 }
 
 .mainnav-small {
-    background-image: url(../assets/images/menu-assets/mainnav-basicbackground.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat; 
-    max-height: 50px;
+    background-color: #134670;
+    border: none;
+    border-radius: 0px;
 }
 
 .mainnav-middle {
@@ -74,6 +73,16 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     min-height: 110px;
+}
+
+.narbar-default {
+    color: white;
+}
+
+li.mainnav-list {
+  display: inline;
+  float: left;
+  padding: 2em 1em 0 1em;
 }
 
 .mainnav-fill {
@@ -133,14 +142,58 @@ body {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+.input-group {
+    padding-top: 1.3em;
+}
+
 .dashboard-text {
     color: white;
     font-size: 2.5em;
+    padding-top: .43em;
 }
 
 .row-dash {
     margin-right: -10px;
     margin-left: -10px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 12px;
+    background-color: rgba(19, 70, 112, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(19, 70, 112, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(19, 70, 112, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(50, 198, 104, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #32c668;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #32c668;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #32c668;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #134670;
 }
 
 
