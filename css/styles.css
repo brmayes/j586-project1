@@ -56,6 +56,7 @@ ul.topmenu-lists {
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     min-height: 110px;
+    border: 1px solid white;
 }
 
 .narbar-default {
@@ -89,6 +90,10 @@ li.mainnav-list {
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     min-height: 110px;
+}
+
+.mainnav-centered {
+    border: 1px solid white;
 }
 
 /* Dashboard*/
@@ -136,8 +141,8 @@ li.mainnav-list {
 }
 
 .row-dash {
-    margin-right: -10px;
-    margin-left: -10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -180,15 +185,25 @@ li.mainnav-list {
 }
 
 
-/* Main Content */
+/* Main Content */ 
 
-.gradient {
-    background-image: url("../assets/images/application-dashboard-assets/background-gradient.png")
+#gradient {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(#f5f5f5, #ffffff 20%);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.main-whitearea {
+    background-color: white;
+    padding: 1em;
 }
 
 .main {
     border: solid 1px;
 }
+
+/* ANNOUNCEMENTS */
 
 .announcements {
     min-height: 50px;
@@ -199,6 +214,12 @@ li.mainnav-list {
     color: #FF9B13;
     font-weight: 600;
     border-right: solid 2px #F6F6F6;
+    text-align: center;
+    padding-top: .6em;
+}
+
+.announcements-text-div {
+    border: black 1px solid;
 }
 
 .announcements-text-area {
