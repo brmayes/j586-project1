@@ -7,7 +7,11 @@ body {
 .topnav {
     background-image: url(../assets/images/menu-assets/topmenu-background.png);
     min-height: 45px;
-    padding-right: 10px;
+    padding-right: 0px;
+}
+
+.col-md-12-topnav {
+    position: relative;
 }
 
 .topnav-div {
@@ -177,22 +181,30 @@ li.mainnav-list {
 
 
 /* Main Content */
+
+.gradient {
+    background-image: url("../assets/images/application-dashboard-assets/background-gradient.png")
+}
+
 .main {
     border: solid 1px;
 }
 
-.announcments {
+.announcements {
     min-height: 50px;
+    border-bottom: solid 2px #F6F6F6;
 }
 
 .announcements-text {
     color: #FF9B13;
     font-weight: 600;
+    border-right: solid 2px #F6F6F6;
 }
 
 .announcements-text-area {
     color: #FF9B13;
-    color: #777777
+    color: #777777;
+    border-right: solid 1px #F6F6F6;
 }
 
 .announcements-text-arrows {
@@ -218,6 +230,8 @@ li.mainnav-list {
 .analytics-know {
     min-height: 180px;
 }
+
+
 
 
 /* Footer */
