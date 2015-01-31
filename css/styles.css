@@ -196,7 +196,7 @@ li.mainnav-list {
 
 .main-whitearea {
     background-color: white;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
 }
 
 .main {
@@ -213,24 +213,35 @@ li.mainnav-list {
 .announcements-text {
     color: #FF9B13;
     font-weight: 600;
-    border-right: solid 2px #F6F6F6;
     text-align: center;
-    padding-top: .6em;
+    padding: 1.1em 0 0 0;
+    float: left;
+    font-size: 1em;
 }
 
 .announcements-text-div {
-    border: black 1px solid;
+    height: 50px;
+    text-align: center;
 }
 
 .announcements-text-area {
-    color: #FF9B13;
+    padding-top: 1.1em;
     color: #777777;
-    border-right: solid 1px #F6F6F6;
+    float: left;
+    font-size: 1em;
+    text-align: center;
+}
+
+.announcements-line {
+    float: right;
 }
 
 .announcements-text-arrows {
-    padding: 4px 0px;
+    padding: 1.1em 1em 0 0;
+    
 }
+
+/*TASKS*/
 
 .tasks-main {
     min-height: 120px;
@@ -240,6 +251,8 @@ li.mainnav-list {
     min-height: 60px;
 }
 
+
+/*ANALYTICS*/
 .analytics-main {
     min-height: 405px;
 }
