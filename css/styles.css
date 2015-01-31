@@ -3,6 +3,10 @@ body {
     font-family: "Myriad pro";
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* Navigation*/
 .topnav {
     background-image: url(../assets/images/menu-assets/topmenu-background.png);
@@ -197,6 +201,7 @@ li.mainnav-list {
 .main-whitearea {
     background-color: white;
     padding: 0 1em 1em 1em;
+    border: 2px solid #f6f6f6;
 }
 
 .main {
@@ -244,13 +249,33 @@ li.mainnav-list {
 /*TASKS*/
 
 .tasks-main {
-    min-height: 120px;
+    min-height: 60px;
+}
+
+.tasks-header {
+    color: #2394EE;
+    font-size: 2.5em;
+    float: left;
 }
 
 .tasks {
     min-height: 60px;
+    border-bottom: 2px solid #f6f6f6;
+    border-right: 2px solid #f6f6f6;
+    font-size: 1.5em;
+    padding-top: .7em;
+    color: #2394EE;
+    float: left;
 }
 
+.tasks-links:hover, .tasks-links:active {
+    color: #CCCCCC;
+}
+
+.tasks-links {
+    font-size: 1.2em;
+    color: #2394EE;
+} 
 
 /*ANALYTICS*/
 .analytics-main {
