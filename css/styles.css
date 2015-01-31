@@ -303,6 +303,33 @@ li.mainnav-list {
     padding: .2em 0 0 2em;
 }
 
+/*RECOMMENDATIONS */
+.recommendations {
+    min-height: 60px;
+    min-width: 325px;
+    font-size: 1.5em;
+    padding-top: .7em;
+    color: #2394EE;
+    float: left;
+}
+
+.recommendations-links {
+    margin-top: 1em;
+}
+
+.recommendations-maintext {
+   font-size: 1em;
+   color: #777777;
+   margin: .3em 0 0 0;
+   line-height: 90%;
+}
+
+.recommendations-subtext {
+   font-size: .5em;
+   margin: .2em 0 -.7em 0;
+   color: #999999;
+}
+
 /*ANALYTICS*/
 .analytics-main {
     min-height: 405px;

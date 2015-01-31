@@ -1,4 +1,4 @@
-.recommendations-bulbicon, .recommendations-articleicon, .recommendation-checkicon{
+.recommendations-bulbicon, .recommendations-articleicon, .recommendations-checkicon{
 	background: url(recommendations-sprites.png) no-repeat;
 }
 
@@ -6,6 +6,8 @@
 	background-position: -26px -13px ;
 	width: 23px;
 	height: 37px;
+	float: left;
+	margin: .15em .5em 0 0;
 }
 
 .recommendations-articleicon{
@@ -16,9 +18,11 @@
 	margin: .15em .5em 0 0;
 }
 
-.recommendation-checkicon{
+.recommendations-checkicon{
 	background-position: -125px -12px ;
 	width: 23px;
 	height: 37px;
+	float: left;
+	margin: .15em .5em 0 0;
 }
 
