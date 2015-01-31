@@ -268,7 +268,6 @@ li.mainnav-list {
     min-height: 60px;
     min-width: 325px;
     border-bottom: 2px solid #f6f6f6;
-    border-right: 2px solid #f6f6f6;
     font-size: 1.5em;
     padding-top: .7em;
     color: #2394EE;
@@ -333,14 +332,31 @@ li.mainnav-list {
 /*ANALYTICS*/
 .analytics-main {
     min-height: 405px;
+    border-left: 2px solid #f6f6f6;
+    padding-top: .8em;
+    color: #999999;
+}
+
+.analytics-main-header {
+    font-size: 2.5em;
+    color: #2394EE;
+}
+
+#main-graph {
+    border-right: 3px solid #ddd;
+    padding: 0 1em 0 0;
 }
 
 .analytics-cc {
     min-height: 270px;
+    border-left: 2px solid #f6f6f6;
+    border-top: 2px solid #f6f6f6;
 }
 
 .analytics-know {
     min-height: 180px;
+    border-left: 2px solid #f6f6f6;
+    border-top: 2px solid #f6f6f6;
 }
 
 
