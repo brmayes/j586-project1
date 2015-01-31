@@ -12,6 +12,8 @@
 	background-position: -76px -11px ;
 	width: 23px;
 	height: 37px;
+	float: left;
+	margin: .15em .5em 0 0;
 }
 
 .recommendation-checkicon{
