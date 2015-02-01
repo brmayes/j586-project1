@@ -66,7 +66,7 @@
         <div class="col-md-2 visible-md-12 visible-lg-12 hidden-sm hidden-xs mainnav-left">
         </div>
         <div class="col-md-8 hidden-sm hidden-xs mainnav-middle">
-          <div >
+          <div>
             <ul  class="mainnav-centered">
               <li class="active mainnav-list"><a href="#"><div class="menu-items-03"></div></a></li>
               <li class= "mainnav-list"><a href="#"><div class="menu-items-02"></div></a></li>
@@ -82,7 +82,7 @@
       </div>
     
     <!--mobile-->
-      <div class="row visible-xs visible-sm">
+      <div class="row visible-xs visible-sm"> 
         <div class="col-xs-12 ">
           <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
             <div class="container-fluid">
@@ -320,15 +320,57 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-10 analytics-main-activity">
+                          <p class="analytics-activity">
+                            ACTIVITY
+                          </p>
+                          <select id="analytics-dropdown">
+                            <!-- This method is nice because it doesn't require extra div tags, but it also doesn't retain the style across all browsers. -->
+                            <option>06/28/11 - 07-21/11</option>
+                            <option>08/28/11 - 09-21/11</option>
+                          </select>
+                          
                           <img src="assets/images/analytics/analytics-activity-graph.png" id="main-graph">
                         </div>
-                        <div class="col-md-4">
-                          
+                        <div class="col-md-2 side-graph">
+                          <div class="row">
+                            <div class="col-md-12 col-xs-6">
+                              <p class="side-graph-text">
+                                CHANNELS
+                              </p>
+                              <img src="assets/images/analytics/channels-graph.png" id="side-graph">
+                            </div>
+                            <div class="col-md-12 col-xs-6">
+                              <p class="side-graph-text">
+                                REFERRALS
+                              </p>
+                              <img src="assets/images/analytics/referrals-graph.png" id="side-graph">
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div class="row analytics-socialmedia">
+                <div class="col-md-12 analytics-checkboxes">
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1">
+                      <div class="analytics-facebook"></div>
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2">
+                      <div class="analytics-twitter"></div>
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3">
+                      <div class="analytics-foursquare"></div>
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3">
+                      <div class="analytics-google"></div>
+                  </label>
                 </div>
               </div>
               <div class="row">

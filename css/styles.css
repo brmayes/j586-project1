@@ -254,7 +254,6 @@ li.mainnav-list {
 .tasks-main {
     min-height: 60px;
     min-width: 325px;
-    border-right: 2px solid #f6f6f6;
 }
 
 .tasks-header {
@@ -267,7 +266,6 @@ li.mainnav-list {
 .tasks {
     min-height: 60px;
     min-width: 325px;
-    border-bottom: 2px solid #f6f6f6;
     font-size: 1.5em;
     padding-top: .7em;
     color: #2394EE;
@@ -335,16 +333,92 @@ li.mainnav-list {
     border-left: 2px solid #f6f6f6;
     padding-top: .8em;
     color: #999999;
+
 }
 
 .analytics-main-header {
     font-size: 2.5em;
     color: #2394EE;
+    text-align: left;
+}
+
+.form-control {
+    width: 30%;
+}
+
+select#analytics-dropdown, select#analytics-dropdown-color {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url("../assets/images/analytics/analytics-activity-arrow.png"), -webkit-linear-gradient(#fff, #fff 40%, #fff);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 50%;
+    display: inline;
+    float: right;
+}
+
+
+.analytics-activity {
+    float: left;
+    padding-top: 5px;
+}
+
+.analytics-main-activity {
+    border-right: 3px solid #ddd;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 #main-graph {
-    border-right: 3px solid #ddd;
     padding: 0 1em 0 0;
+    width: 100%;
+}
+
+#side-graph {
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.side-graph {
+    padding: 10px 3px 0 0;
+}
+
+.side-graph-text {
+    text-align: left;
+    line-height: 70%;
+    margin-top: 1em;
+    padding: 0 0 0 10px;
+}
+
+.analytics-checkboxes {
+    text-align: center;
+}
+
+.checkbox-inline {
+    margin: 0 1em 0 0;
+}
+
+.checkbox-inline input[type=checkbox] {
+position: absolute;
+margin-left: -60px;
+}
+
+.analytics-socialmedia {
+    border-left: 2px solid #f6f6f6;
+    padding: 2em 0;
 }
 
 .analytics-cc {
