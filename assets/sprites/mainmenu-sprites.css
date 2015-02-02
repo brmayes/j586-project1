@@ -2,73 +2,73 @@
 	background: url(mainmenu-sprites.png) no-repeat;
 }
 
-.menu-items-01{
+.menu-items-01:hover, .menu-items-01:active{
 	background-position: -40.00000762939453px -26px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-01:hover{
+.menu-items-01 {
 	background-position: -118.00000762939453px -28px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-02{
+.menu-items-02:hover, .menu-items-02:active{
 	background-position: -249.00000762939453px -26px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-03{
-	background-position: -460.00003814697266px -27px ;
-	width: 60px;
-	height: 73px;
-}
-
-.menu-items-04{
-	background-position: -49.00000762939453px -125px ;
-	width: 60px;
-	height: 73px;
-}
-
-.menu-items-05{
-	background-position: -263.00000762939453px -126px ;
-	width: 60px;
-	height: 73px;
-}
-
-.menu-items-06{
-	background-position: -461.00000762939453px -125px ;
-	width: 60px;
-	height: 73px;
-}
-
-.menu-items-02:hover{
+.menu-items-02{
 	background-position: -338.00000762939453px -27px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-03:hover{
+.menu-items-03:active, menu-items-03:visited, .menu-items-03:hover {
+	background-position: -460.00003814697266px -27px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-03{
 	background-position: -539.0000076293945px -26px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-04:hover{
+.menu-items-04:hover, .menu-items-04:active{
+	background-position: -49.00000762939453px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-04{
 	background-position: -125.00000762939453px -125px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-05:hover{
+.menu-items-05:hover, .menu-items-05:active{
+	background-position: -263.00000762939453px -126px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-05{
 	background-position: -340.00000762939453px -125px ;
 	width: 60px;
 	height: 73px;
 }
 
-.menu-items-06:hover{
+.menu-items-06:hover, .menu-items-06:active{
+	background-position: -461.00000762939453px -125px ;
+	width: 60px;
+	height: 73px;
+}
+
+.menu-items-06{
 	background-position: -538.0000076293945px -125px ;
 	width: 60px;
 	height: 73px;

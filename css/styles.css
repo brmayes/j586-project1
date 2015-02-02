@@ -85,6 +85,17 @@ ul.topmenu-lists {
     
 }
 
+.mainnav-items-center {
+    display: inline-block;
+    margin: 15px;
+}
+
+.mainnav-items-center-div {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
 .narbar-default {
     color: white;
 }
@@ -100,7 +111,6 @@ li.mainnav-list {
     background-repeat: repeat-x; 
     height: 75px;
     position: absolute;
-    top: 50px;
     width: 100%;
 }
 
@@ -161,6 +171,11 @@ li.mainnav-list {
     padding-top: 1.3em;
 }
 
+.search-sm {
+    margin-left: 7em;
+    float: right;
+}
+
 .dashboard-text {
     color: white;
     font-size: 2.5em;
@@ -215,9 +230,9 @@ li.mainnav-list {
 /* Main Content */ 
 
 .white-pointer {
-    position: absolute;
-    top: 145px;
-    left: 305px;
+    position: relative;
+    top: 5px;
+    left: 210px;
 }
 
 #gradient {
