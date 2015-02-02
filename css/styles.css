@@ -591,34 +591,6 @@ margin-left: -60px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 .footer {
     background-image: url(../assets/images/footer/footer-plainbackcut.png);
@@ -626,3 +598,95 @@ margin-left: -60px;
     background-repeat: no-repeat; 
     min-height: 50px;
 }
+
+.footer-gradient {
+    background-image: url(../assets/images/footer/footer-background-wgradientslice.png);
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+}
+
+.footer-1, .footer-2, .footer-3, .footer-4 {
+    border-right: 1px solid #ddd;
+    height: 50px;
+    padding: 1em 0 0 0;
+}
+
+.footer-1-text {
+    display: inline;
+    color: #bbbbbb;
+}
+
+.footer-1-text-block {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.footer-1-text-side {
+    padding: 0 1em;
+}
+
+.footer-1-text-middle {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 0 1em;
+}
+
+.footer-2-text-block {
+    display: inline;
+    color: #939393;
+}
+
+.footer-text-bold {
+    font-weight: 800;
+    color: #2498f2;
+}
+
+.footer-2-text {
+    padding: 0 1em;
+    float: left;
+}
+
+.footer-2-arrow {
+    float: right;
+    margin: .2em 1em 0 1em;
+}
+
+.footer-3 {
+    padding: .5em;
+}
+.footer-avatar {
+    float: left;
+    width: 40%
+}
+
+.footer-avatar-text {
+    float: right;
+    font-weight: 800;
+    color: #2498f2;
+    padding: .5em 0 0 0;
+}
+
+.footer-4-block {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
