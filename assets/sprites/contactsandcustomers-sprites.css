@@ -18,23 +18,32 @@
 	background-position: -7.000007629394531px -116px ;
 	width: 192px;
 	height: 82px;
+	margin: 10px 8px;
 }
 
 .contactsandcustomers-greenperson{
 	background-position: -222.00000762939453px -117px ;
 	width: 78px;
 	height: 82px;
+	margin: 0 0 -15px 70px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: auto;
+	border: 1px black solid;
 }
 
 .contactsandcustomers-orangegraph{
 	background-position: -7.000007629394531px -266px ;
 	width: 192px;
 	height: 82px;
+	margin: 10px 8px;
 }
 
 .contactsandcustomers-orangeperson{
 	background-position: -222.00000762939453px -267px ;
 	width: 78px;
 	height: 82px;
+	margin: 0 0 -15px 70px;
 }
 

@@ -327,6 +327,10 @@ li.mainnav-list {
    color: #999999;
 }
 
+reccomendations-dots {
+    width: 100%;
+}
+
 /*ANALYTICS*/
 .analytics-main {
     min-height: 405px;
@@ -421,10 +425,66 @@ margin-left: -60px;
     padding: 2em 0;
 }
 
+/*ANALYTICS CONTACTS AND CUSTOMERS */
+
 .analytics-cc {
     min-height: 270px;
     border-left: 2px solid #f6f6f6;
     border-top: 2px solid #f6f6f6;
+    padding-top: 2em;
+}
+
+.analytics-contacts, .analytics-customers {
+    height: 200px;
+    width: 210px;
+    border-radius: 5px;
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 3px 5px .5px #C9C9C9;
+}
+
+.analytics-cc-box {
+    background-color: #2394EE;
+    height: 50px;
+    width: 208px;
+    margin: 40px 0 0 0;
+    position: relative;
+}
+
+.analytics-cc-maintext {
+    color: white;
+    font-size: 1.5em;
+    line-height: 80%;
+    padding: 13px 0 8px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.analytics-cc-subtext {
+    color: white;
+    font-size: .8em;
+    line-height: 0;
+    text-align: center;
+}
+
+.analytics-person {
+    position: absolute;
+    left: 85px;
+    bottom: 140px;
+    display: inline-block;
+}
+
+.analytics-flag-left {
+    position: absolute;
+    left: 0px;
+    bottom: 113px;
+    display: inline-block;
+}
+
+.analytics-flag-right {
+    position: absolute;
+    left: 225px;
+    bottom: 113px;
+    display: inline-block;
 }
 
 .analytics-know {
