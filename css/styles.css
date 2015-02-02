@@ -491,12 +491,90 @@ margin-left: -60px;
     display: inline-block;
 }
 
+/* DID YOU KNOW */
+
 .analytics-know {
     min-height: 180px;
     border-left: 2px solid #f6f6f6;
     border-top: 2px solid #f6f6f6;
 }
 
+.analytics-know-boxlg {
+    min-height: 140px;
+    min-width: 560px;
+    background-color: #2498F4;
+    border-radius: 5px;
+    margin: 1.3em 0 0 0;
+    position: relative;
+    padding: 2em 0 0 0;
+}
+
+.analytics-know-boxsm {
+    width: 90%;
+    background-color: #2498F4;
+    border-radius: 5px;
+    margin: 1.3em auto;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 1em;
+}
+
+.analytics-know-insidelg {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.analytics-know-nextarrowlg {
+    position: absolute;
+    right: 0px;
+    bottom: 45px;
+}
+
+
+ *.analytics-know-backarrowlg {
+    position: absolute;
+    left: 0px;
+    bottom: 45px;
+}
+
+.analytics-know-insidesm {
+    margin: 1em;
+}
+
+.analytics-know-nextarrowsm {
+    position: absolute;
+    right: 0px;
+    bottom: 7em;
+}
+
+
+.analytics-know-backarrowsm {
+    position: absolute;
+    left: 0px;
+    bottom: 7em;
+}
+
+.analytics-know-headtext {
+    color: white;
+}
+
+.analytics-know-maintext {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ADVERTISEMENTS */
 
 
 
