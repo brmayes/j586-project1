@@ -1,0 +1,16 @@
+.uncheckedbox, .checkedbox{
+	background: url(checkbox-sprites.png) no-repeat;
+}
+
+.uncheckedbox{
+	background-position: 0 0;
+	width: 23px;
+	height: 22px;
+}
+
+.checkedbox{
+	background-position: -49.97500228881836px 0;
+	width: 23px;
+	height: 22px;
+}
+

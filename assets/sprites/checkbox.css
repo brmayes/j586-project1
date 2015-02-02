@@ -1,0 +1,22 @@
+.checked-box, .orangecheck, .unchecked-box{
+	background: url(sprites.png) no-repeat;
+}
+
+.checked-box{
+	background-position: -70px 0;
+	width: 24px;
+	height: 26px;
+}
+
+.orangecheck{
+	background-position: -36px 0;
+	width: 24px;
+	height: 26px;
+}
+
+.unchecked-box{
+	background-position: 0 0;
+	width: 24px;
+	height: 26px;
+}
+

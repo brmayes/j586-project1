@@ -1,3 +1,36 @@
-.extra {
-    margin: 20px;
+input[type="checkbox"] {
+    display:none;
 }
+
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:23px;
+    height:23px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../assets/sprites/checkbox-sprites.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(../assets/sprites/checkbox-sprites.png) -49.97500228881836px top no-repeat;
+}
+
+.checkedbox, .uncheckedbox{
+	background: url(checkbox-sprites.png) no-repeat;
+}
+
+.uncheckedbox{
+	background-position: 0 0;
+	width: 23px;
+	height: 22px;
+}
+
+.checkedbox{
+	background-position: -49.97500228881836px 0;
+	width: 23px;
+	height: 22px;
+}
+
+
