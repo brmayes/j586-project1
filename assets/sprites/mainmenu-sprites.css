@@ -82,6 +82,7 @@
 	float: right;
 	margin-top: 8px;
 	margin-right: 5px;
+	
 }
 
 .topmenu-icon-help{
@@ -92,6 +93,7 @@
 	float: right;
 	margin-top: 8px;
 	margin-right: 5px;
+	border: solid 2px #1c85d8;
 }
 
 .topmenu-background{
