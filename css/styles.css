@@ -437,6 +437,12 @@ select#analytics-dropdown, select#analytics-dropdown-color {
     margin: 0 10px;
 }
 
+#side-graph2 {
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
 .side-graph {
     padding: 10px 3px 0 0;
 }
@@ -718,7 +724,7 @@ input[type="checkbox"]:checked + label span {
 }
 .footer-avatar {
     float: left;
-    width: 40%
+    width: 40%;
     max-height: 50px;
 }
 
@@ -734,22 +740,3 @@ input[type="checkbox"]:checked + label span {
     display: block;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
